@@ -1,6 +1,6 @@
 # Simple Java Based Bloom Filter
 > Gradle based Java Application for a simple bloom filter
-## Use
+## Usage
 
 ```java
 BloomFilter bloomFilter = BloomFilter.getInstance();

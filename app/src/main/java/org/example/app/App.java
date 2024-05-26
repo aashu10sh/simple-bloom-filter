@@ -3,17 +3,6 @@
  */
 package org.example.app;
 
-import org.example.list.LinkedList;
-
-import static org.example.utilities.StringUtils.join;
-import static org.example.utilities.StringUtils.split;
-import static org.example.app.MessageUtils.getMessage;
-import org.example.app.BloomFilter;
-
-
-
-
-import org.apache.commons.text.WordUtils;
 
 public class App {
     public static void main(String[] args) {
@@ -22,5 +11,6 @@ public class App {
         bloomFilter.add("ronaldo");
         System.out.println(bloomFilter.check("neymar"));
         System.out.println(bloomFilter.check("ronaldo"));
+        
     }
 }
